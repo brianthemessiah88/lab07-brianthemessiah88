@@ -144,7 +144,8 @@ void multiplyPairwise(int *a, int *b, int *product, int n) {
 // you should return a pointer to the new integer array of size len
 // with all of the elements in it set to 0
 int* createArray(int len) {
-  int newArray [len] = { };
-  int (*returnArray)[len] = &newArray;
-  return returnArray;
+  //int newArray [len] = { };
+  //int (*returnArray)[len] = &newArray;
+  //return 42;
+
 }
